@@ -1,4 +1,4 @@
-package com.yazilimciyiz.excersize1;
+package com.yazilimciyiz.exercise1;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Excersize1 {
+public class Exercise1 {
 
     public static void main(String[] args) throws IOException {
         Offers offers = getOffers();
@@ -18,7 +18,7 @@ public class Excersize1 {
     }
 
     private static Offers getOffers() throws IOException {
-        String offersJson = new String(Excersize1.class.getClassLoader().getResourceAsStream("offers.json").readAllBytes());
+        String offersJson = new String(Exercise1.class.getClassLoader().getResourceAsStream("offers.json").readAllBytes());
 
 //        URL url = Resources.getResource("offers.json");
 //        String offers = Resources.toString(url, StandardCharsets.UTF_8);

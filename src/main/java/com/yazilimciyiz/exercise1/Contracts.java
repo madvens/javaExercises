@@ -1,4 +1,4 @@
-package com.yazilimciyiz.excersize1;
+package com.yazilimciyiz.exercise1;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,7 +11,8 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class Offers {
+public class Contracts {
 
-    private List<Offer> offers;
+    private List<Contract> contracts;
+
 }

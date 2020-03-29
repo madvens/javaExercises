@@ -1,4 +1,4 @@
-package com.yazilimciyiz.excersize1;
+package com.yazilimciyiz.exercise1;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,11 +9,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class Offer {
+public class ContractOffer {
 
     private Long offerId;
-    private String contractId;
     private String offerName;
-    private String contractName;
-
 }

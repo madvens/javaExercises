@@ -1,16 +1,17 @@
-package com.yazilimciyiz.excersize1;
+package com.yazilimciyiz.exercise1;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class ContractOffer {
+public class Offers {
 
-    private Long offerId;
-    private String offerName;
+    private List<Offer> offers;
 }
